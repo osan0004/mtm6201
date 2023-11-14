@@ -6,8 +6,10 @@
     <title>Three Start Media</title>
     <!-- Bootsrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- Bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/threestsr.css">
+    <link rel="stylesheet" href="css/threestar.css">
   </head>
 
   <body>
@@ -26,26 +28,58 @@
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#home">Home</a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item d-flex">
                 <a class="nav-link" href="#about">About Us</a>
                 <a class="nav-link" href="#services">Services</a>
                 <a class="nav-link" href="#contact">Contact</a>
                 <a class="nav-link" href="#team">Team</a>
                 <a class="nav-link" href="#projects">Projects</a>
-
-
               </li>
             </ul>
             <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
+              <input class="form-control text-bg-light p-3 rounded-0" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-primary" type="submit"><i class="bi bi-search"></i></button>
             </form>
           </div>
         </div>
       </nav>
 
     </header>
+    <main>
+      <!-- banner section -->
+      <section id="Home" class="banner py-5">
+        <div class="container-lg banner-info bg-dark text-light bg-opacity-75 py-4 ">
+          <h1 class="display-1">
+            Welcome to Three Star Media
+          </h1>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate a sint iusto amet, maiores distinctio quis fugit minus laudantium illum rem quisquam sunt ipsum dolores dicta corporis officiis blanditiis. Repellat.
+          </p>
+          <a href="#contact" class="btn btn-primary text-dark rounded-0 p-3">Connect With Us <i class="bi bi-play-fill"></i> </a>
+          <!-- p-3 means padding 3spaces=1.5rem   m-3 means margin 3rem  highest is p-5 =3rem-->
+        </div>
+      </section><!--closes .banner -->
 
+      <!-- About Section -->
+      <section id="about" class="bg-secondary">
+        <div class="container-lg">
+          <div class="row">
+            <div class="col-md">
+              <img src="images/about-us.jpg" alt="office space" class="w-100 py-5">
+            </div>
+            <div class="col-md">
+              <h2 class="display-3">About Us</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, id.
+              </p>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit autem mollitia non velit odit ullam perspiciatis provident dolorum similique dicta?
+              </p>
+            </div>
+          </div><!--closes row-->
+        </div><!--closes .container-lg-->
+      </section><!--closes about-->
+    </main>
 
     <!-- Bootsrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
