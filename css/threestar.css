@@ -10,7 +10,17 @@
   --bs-primary-border-subtle: #d99e14;
   --bs-secondary-border-subtle: #fbebc4;
 }
-
+.btn-primary,
+.btn-outline-primary {
+  --bs-btn-color: var(--bs-primary);
+  --bs-btn-border-color: #C78C06;
+  --bs-btn-bg:var(--bs-primary);
+  --bs-btn-hover-bg:#f8f9fa;
+  --bs-btn-hover-border-color: #C78C06;
+  --bs-btn-focus-shadow-rgb: var(--bs-primary);
+  --bs-btn-active-bg: var(--bs-primary);
+  --bs-btn-active-border-color: var(--bs-primary);  
+}
 .banner{
   background: white url(../images/main-banner.jpg) no-repeat center; 
   background-size: cover;
